@@ -1,4 +1,5 @@
 ﻿body {
+    width: 1280px;
 }
 #Cabecalho{
     width: 800px;
@@ -16,36 +17,102 @@
     text-align: center;
     padding-top:20px;
 }
-
-#btnCliente{
-    margin:0 20px 0 0;
-}
-#corpo{
-    clear:both;
-}
-#txtNomeCliente, #txtLogradouroCliente {
-    width: 250px;
-    margin-right: 10px;
-}
-#txtCPFCliente, #txtCelularCliente, #txtBairroCliente, #txtCidadeCliente {
-    width: 100px;
-    margin-right: 10px;
-}
-#txtEmailCliente {
-    width: 150px;
+.Dados > h3, .Dados > span{
+    display: inline-block;
 }
 
-#txtNumeroCLiente {
+formview {
+    font-family: verdana;
+}
+
+formview fieldset {
+    border: 2px solid #ccc;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+formview legend {
+    text-align: left;
+    padding-left: 10px;
+}
+
+formview > input[type="text"] {
+    margin-top: 5px;
+    /* Dizendo que todos os inputs que forem do tipo "text" terão os atributos */
+}
+
+formview > input[type="text"]:focus {
+    outline: 0;
+}
+/* Todo comando "display: inline-block" deixa cada componente lado a lado */
+.nome, .nasc {
+    display: inline-block;
+    width: 50%;
+}
+/* O Comando "width: 50%" faz com que cada componente tenha 50% do tamanho horizontal do formulário */
+
+.email, .cpf {
+    display: inline-block;
+    width: 50%;
+}
+
+.ddd > input {
+    margin-right: 20px;
     width: 50px;
-    margin-right: 10px;
+
 }
-#DadosClientes{
-    width:650px;
-    margin-top:20px;
+
+.ncasa {
+    width: 60px;
+    margin-left: -5px;
 }
-#Botoes{
-    margin: 20px 20px 20px 0;
+
+.telefone > input, .cep > input {
+    display: inline-block;
+    margin-left: 15px;
+    width: 100px;
 }
-#btnCliente{
-    
+
+.ddd, .telefone, .cep {
+    display: inline-block;
+}
+
+.rua, .ncasa {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.bairro, .cidade {
+    display: inline-block;
+    width: 50%;
+}
+
+.cidade {
+    margin-left: -5px;
+}
+
+#GridView{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.btns {
+    margin-right: 15px;
+    width: 80px;
+    height: 30px;
+    margin-top: -15px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#salvar {
+    background-color: #088A08;
+}
+
+#alterar {
+    background-color: #FFFF00;
+}
+
+#excluir {
+    background-color: #FF0000;
 }
