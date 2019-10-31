@@ -1,0 +1,51 @@
+﻿body {
+}
+#Cabecalho{
+    width: 800px;
+    border: 2px solid #000000;
+}
+
+#logo{
+    float:left;
+    width:10%;
+}
+
+#Titulo{
+    float:right;
+    width:90%;
+    text-align: center;
+    padding-top:20px;
+}
+
+#btnCliente{
+    margin:0 20px 0 0;
+}
+#corpo{
+    clear:both;
+}
+#txtNomeCliente, #txtLogradouroCliente {
+    width: 250px;
+    margin-right: 10px;
+}
+#txtCPFCliente, #txtCelularCliente, #txtBairroCliente, #txtCidadeCliente {
+    width: 100px;
+    margin-right: 10px;
+}
+#txtEmailCliente {
+    width: 150px;
+}
+
+#txtNumeroCLiente {
+    width: 50px;
+    margin-right: 10px;
+}
+#DadosClientes{
+    width:650px;
+    margin-top:20px;
+}
+#Botoes{
+    margin: 20px 20px 20px 0;
+}
+#btnCliente{
+    
+}
