@@ -67,37 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="frmCliente.aspx" />
-    <Content Include="frmInicial.aspx" />
+    <Content Include="Apresentacao\frmCliente.aspx" />
+    <Content Include="Apresentacao\frmInicial.aspx" />
     <Content Include="CSS\CRUDStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCliente.aspx.cs">
+    <Compile Include="Apresentacao\frmCliente.aspx.cs">
       <DependentUpon>frmCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmCliente.aspx.designer.cs">
+    <Compile Include="Apresentacao\frmCliente.aspx.designer.cs">
       <DependentUpon>frmCliente.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmInicial.aspx.cs">
+    <Compile Include="Apresentacao\frmInicial.aspx.cs">
       <DependentUpon>frmInicial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmInicial.aspx.designer.cs">
+    <Compile Include="Apresentacao\frmInicial.aspx.designer.cs">
       <DependentUpon>frmInicial.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmPrincipal.Master.cs">
+    <Compile Include="Apresentacao\frmPrincipal.Master.cs">
       <DependentUpon>frmPrincipal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmPrincipal.Master.designer.cs">
+    <Compile Include="Apresentacao\frmPrincipal.Master.designer.cs">
       <DependentUpon>frmPrincipal.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="frmPrincipal.Master" />
+    <Content Include="Apresentacao\frmPrincipal.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

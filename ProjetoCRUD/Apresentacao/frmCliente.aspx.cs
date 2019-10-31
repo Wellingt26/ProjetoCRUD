@@ -9,6 +9,8 @@ namespace ProjetoCRUD
 {
     public partial class frmCliente : System.Web.UI.Page
     {
-        
+        protected void btnSalvar_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

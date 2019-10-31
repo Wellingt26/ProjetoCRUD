@@ -1,66 +1,66 @@
 ﻿body {
-    width: 1280px;
+    width: 100%;
+    height: 100%;
 }
 #Cabecalho{
-    width: 800px;
+    width: 100%;
+    height: 90px;
     border: 2px solid #000000;
 }
 
+#btnCliente, #btnLogoff{
+    margin: -15px 30px 10px 10px;
+
+}
+
 #logo{
+    text-align: center;
     float:left;
-    width:10%;
+    width: 80px;
+    height: 80px;
 }
 
 #Titulo{
-    float:right;
     width:90%;
     text-align: center;
-    padding-top:20px;
 }
 .Dados > h3, .Dados > span{
     display: inline-block;
 }
-
-formview {
-    font-family: verdana;
+.Dados > [type="text"], .Dados > [type="email"], .Dados > [type="date"] {
+    margin-top: 5px;
 }
 
-formview fieldset {
+
+fieldset {
     border: 2px solid #ccc;
-    width: 30%;
+    width: 400px;
     float: left;
     margin-right: 20px;
 }
 
-formview legend {
+legend {
     text-align: left;
     padding-left: 10px;
 }
 
-formview > input[type="text"] {
-    margin-top: 5px;
-    /* Dizendo que todos os inputs que forem do tipo "text" terão os atributos */
-}
-
-formview > input[type="text"]:focus {
-    outline: 0;
-}
 /* Todo comando "display: inline-block" deixa cada componente lado a lado */
 .nome, .nasc {
+    margin-right: -4px;
     display: inline-block;
     width: 50%;
 }
 /* O Comando "width: 50%" faz com que cada componente tenha 50% do tamanho horizontal do formulário */
 
 .email, .cpf {
+    margin-right: -4px;
     display: inline-block;
     width: 50%;
 }
 
-.ddd > input {
+.Dados > .ddd > [name="txbDDD"] {
     margin-right: 20px;
     width: 50px;
-
 }
 
 .ncasa {
@@ -68,9 +68,9 @@ formview > input[type="text"]:focus {
     margin-left: -5px;
 }
 
-.telefone > input, .cep > input {
+.telefone > input, .cep > asp:TextBox {
     display: inline-block;
-    margin-left: 15px;
+    margin-right: 15px;
     width: 100px;
 }
 
@@ -94,7 +94,7 @@ formview > input[type="text"]:focus {
 }
 
 #GridView{
-    width: 40%;
+    float: right;
     margin-top: 10px;
 }
 
@@ -103,16 +103,16 @@ formview > input[type="text"]:focus {
     width: 80px;
     height: 30px;
     margin-top: -15px;
-    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 3px 3px 3px #000;
 }
-#salvar {
+#btnSalvar {
     background-color: #088A08;
 }
 
-#alterar {
+#btnEditar {
     background-color: #FFFF00;
 }
 
-#excluir {
+#btnExcluir {
     background-color: #FF0000;
 }
